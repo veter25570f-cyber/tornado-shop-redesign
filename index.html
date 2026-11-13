@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="b">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TORNADO — пневмооборудование для авто · концепт главной</title>
+<meta name="description" content="Концепт главной страницы TORNADO: торнадоры на подшипниках EZO Japan, краскопульты HVLP, пневмоинструмент и автохимия. Склад в Москве, отправка Почтой, СДЭК или курьером.">
+<meta name="theme-color" content="#F4F6F9">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Unbounded:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230B1B2B'/%3E%3Cpath d='M16 7c4 5 6.4 8.4 6.4 11.6a6.4 6.4 0 1 1-12.8 0C9.6 15.4 12 12 16 7Z' fill='%230A63C2'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <ul class="topbar__list">
+      <li>Отправка в день заказа</li>
+      <li>Почта России · СДЭК · курьер</li>
+      <li>Подшипники EZO Japan</li>
+    </ul>
+  </div>
+</div>
+
+<header class="header" id="site-header">
+  <div class="container header__inner">
+    <a class="logo" href="#main" aria-label="TORNADO — в начало страницы">
+      <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+        <rect width="40" height="40" rx="13" fill="var(--deep)"></rect>
+        <path d="M20 9.5c4.2 5.2 6.6 8.7 6.6 11.8a6.6 6.6 0 1 1-13.2 0c0-3.1 2.4-6.6 6.6-11.8Z" fill="var(--accent)"></path>
+        <path d="M28.6 12.6 32 9.2M29.2 17.4l4.2-.8" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" opacity=".7"></path>
+      </svg>
+      <span class="logo__text">
+        <strong>TORNADO</strong>
+        <small>пневмооборудование для авто</small>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Основная навигация">
+      <ul class="nav__list">
+        <li><a href="#catalog">Каталог</a></li>
+        <li><a href="#picker">Подбор</a></li>
+        <li><a href="#delivery">Доставка</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <a class="btn btn--ghost btn--sm header__call" href="#contacts">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.5 3.5h3l1.5 4-2 1.6a11 11 0 0 0 5 5l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16 16 0 0 1 4.5 5.8 2 2 0 0 1 6.5 3.5Z"></path></svg>
+        Заказать звонок
+      </a>
+      <button class="cart-btn" id="cart-button" type="button" aria-label="Корзина">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 8h14l-1 12H6L5 8Z"></path><path d="M9 8V6.5a3 3 0 0 1 6 0V8"></path></svg>
+        <span class="cart-btn__count" id="cart-count" aria-live="polite" aria-atomic="true">0</span>
+      </button>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <nav aria-label="Мобильная навигация">
+      <ul class="mobile-menu__list">
+        <li><a href="#catalog">Каталог</a></li>
+        <li><a href="#picker">Подбор</a></li>
+        <li><a href="#delivery">Доставка</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--primary mobile-menu__call" href="#contacts">Заказать звонок</a>
+    <p class="mobile-menu__note">Отправка в день заказа · Почта России, СДЭК, курьер</p>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="hero" aria-labelledby="hero-title">
+    <div class="container">
+      <p class="eyebrow">Торнадоры · краскопульты · автохимия</p>
+      <h1 class="hero__title" id="hero-title">Оборудование для <span class="accent">химчистки</span> и покраски авто</h1>
+
+      <div class="hero__body">
+        <div class="hero__text">
+          <p class="hero__lead">Торнадоры на подшипниках EZO Japan, краскопульты HVLP, пневмоинструмент и автохимия. Склад в Москве, отправка Почтой, СДЭК или курьером.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#catalog">
+              Смотреть каталог
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg>
+            </a>
+            <a class="btn btn--ghost" href="#picker">Подобрать оборудование</a>
+          </div>
+          <ul class="hero__note" aria-label="Способы доставки">
+            <li>Почта России</li>
+            <li>СДЭК</li>
+            <li>Курьер</li>
+          </ul>
+        </div>
+
+        <figure class="hero__media">
+          <img src="assets/img/hero.jpg" alt="Торнадор TORNADO Z-020 и краскопульт на светлом нейтральном фоне" width="1200" height="1200" fetchpriority="high" decoding="async">
+          <figcaption class="hero__tag"><span class="dot" aria-hidden="true"></span>В наличии · Москва</figcaption>
+        </figure>
+      </div>
+
+      <ul class="hero__facts">
+        <li class="fact"><strong>7 990 ₽</strong><span>— Z-020</span></li>
+        <li class="fact"><strong>EZO Japan</strong><span>— подшипники</span></li>
+        <li class="fact"><strong>3</strong><span>способа доставки</span></li>
+        <li class="fact"><strong>12 мес.</strong><span>— гарантия <a class="fact__ref" href="#warranty-note" aria-label="Сноска об условиях гарантии в футере">*</a></span></li>
+      </ul>
+
+      <div class="quick">
+        <a class="quick__item" href="#catalog">
+          <span class="quick__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="4" width="7" height="7" rx="2"></rect><rect x="13" y="4" width="7" height="7" rx="2"></rect><rect x="4" y="13" width="7" height="7" rx="2"></rect><rect x="13" y="13" width="7" height="7" rx="2"></rect></svg>
+          </span>
+          <span class="quick__text"><strong>Каталог товаров</strong><small>Пять разделов витрины</small></span>
+          <svg class="quick__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg>
+        </a>
+        <a class="quick__item" href="#picker">
+          <span class="quick__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 7h9M18.5 7H21M4 17h3M12.5 17H21"></path><circle cx="15.5" cy="7" r="2.2"></circle><circle cx="9.5" cy="17" r="2.2"></circle></svg>
+          </span>
+          <span class="quick__text"><strong>Подбор оборудования</strong><small>Три шага до заказа</small></span>
+          <svg class="quick__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg>
+        </a>
+        <a class="quick__item" href="#contacts">
+          <span class="quick__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5h16v11H9l-5 4V5Z"></path><path d="M8.5 10h7"></path></svg>
+          </span>
+          <span class="quick__text"><strong>Связаться с нами</strong><small>Звонок, Telegram, e-mail</small></span>
+          <svg class="quick__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categories" aria-labelledby="cats-title">
+    <div class="container">
+      <div class="section__head">
+        <div class="section__head-main">
+          <p class="eyebrow"><b>01</b> Каталог</p>
+          <h2 class="section__title" id="cats-title">Категории</h2>
+          <p class="section__lead">Пять разделов — от торнадора до расходников</p>
+        </div>
+        <a class="section__link" href="#catalog">Весь каталог
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg>
+        </a>
+      </div>
+
+      <div class="cats">
+        <a class="cat cat--lg" href="#catalog">
+          <span class="cat__media"><img src="assets/img/prod-z020.jpg" alt="Торнадор TORNADO Z-020 с бачком 1 л" width="1200" height="1200" loading="lazy" decoding="async"></span>
+          <span class="cat__body"><span class="cat__title">Торнадоры</span><span class="cat__count">12 позиций</span></span>
+          <span class="cat__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg></span>
+        </a>
+        <a class="cat cat--lg" href="#catalog">
+          <span class="cat__media"><img src="assets/img/prod-paint.jpg" alt="Краскопульт HVLP с верхним бачком" width="1200" height="1200" loading="lazy" decoding="async"></span>
+          <span class="cat__body"><span class="cat__title">Краскопульты</span><span class="cat__count">26 позиций</span></span>
+          <span class="cat__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg></span>
+        </a>
+        <a class="cat cat--sm" href="#catalog">
+          <span class="cat__media"><img src="assets/img/prod-foam.jpg" alt="Пеногенератор с бачком под мойку высокого давления" width="1200" height="1200" loading="lazy" decoding="async"></span>
+          <span class="cat__body"><span class="cat__title">Пеногенераторы</span><span class="cat__count">18 позиций</span></span>
+          <span class="cat__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg></span>
+        </a>
+        <a class="cat cat--sm" href="#catalog">
+          <span class="cat__media"><img src="assets/img/cat-tools.jpg" alt="Пневмоинструмент и шланги на светлом фоне" width="1200" height="1200" loading="lazy" decoding="async"></span>
+          <span class="cat__body"><span class="cat__title">Пневмоинструмент и шланги</span><span class="cat__count">34 позиции</span></span>
+          <span class="cat__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg></span>
+        </a>
+        <a class="cat cat--sm" href="#catalog">
+          <span class="cat__media"><img src="assets/img/cat-chem.jpg" alt="Автохимия в канистрах и бутылках" width="1200" height="1200" loading="lazy" decoding="async"></span>
+          <span class="cat__body"><span class="cat__title">Автохимия</span><span class="cat__count">41 позиция</span></span>
+          <span class="cat__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 12h13M13 6l6 6-6 6"></path></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="catalog" aria-labelledby="catalog-title">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <div class="section__head-main">
+          <p class="eyebrow"><b>02</b> Витрина</p>
+          <h2 class="section__title" id="catalog-title">Популярное у мастеров</h2>
+        </div>
+        <div class="chips" role="group" aria-label="Фильтр по категориям">
+          <button class="chip" type="button" data-cat="all" aria-pressed="true">Все</button>
+          <button class="chip" type="button" data-cat="tornado" aria-pressed="false">Торнадоры</button>
+          <button class="chip" type="button" data-cat="paint" aria-pressed="false">Краскопульты</button>
+          <button class="chip" type="button" data-cat="foam" aria-pressed="false">Пена</button>
+          <button class="chip" type="button" data-cat="consum" aria-pressed="false">Расходники</button>
+        </div>
+      </div>
+
+      <div class="products">
+        <article class="product" data-cat="tornado">
+          <div class="product__media">
+            <img src="assets/img/prod-z020.jpg" alt="Торнадор TORNADO Z-020 с бачком 1 л и подшипниками EZO" width="1200" height="1200" loading="lazy" decoding="async">
+            <span class="badge badge--hit">Хит</span>
+          </div>
+          <div class="product__body">
+            <h3 class="product__title">Торнадор Z-020, 3 подшипника EZO, 1 л</h3>
+            <p class="product__benefit">Профессиональная версия с японскими подшипниками EZO, бачок 1 л.</p>
+            <div class="product__foot">
+              <p class="price"><span class="price__now">7 990 ₽</span><s class="price__old" aria-label="Старая цена">8 700 ₽</s></p>
+              <button class="btn btn--card add-to-cart" type="button" aria-label="Добавить в корзину: Торнадор Z-020">В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product" data-cat="tornado">
+          <div class="product__media">
+            <img src="assets/img/prod-z020.jpg" alt="Торнадор Cyclone Z-020 в корпусе из нержавейки" width="1200" height="1200" loading="lazy" decoding="async">
+            <span class="badge badge--ezo">EZO Japan</span>
+          </div>
+          <div class="product__body">
+            <h3 class="product__title">Торнадор Cyclone Z-020, корпус из нержавейки</h3>
+            <p class="product__benefit">Альтернатива Z-020 в корпусе из нержавейки, бачок 1 л.</p>
+            <div class="product__foot">
+              <p class="price"><span class="price__now">7 500 ₽</span></p>
+              <button class="btn btn--card add-to-cart" type="button" aria-label="Добавить в корзину: Торнадор Cyclone Z-020">В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product" data-cat="foam">
+          <div class="product__media">
+            <img src="assets/img/prod-foam.jpg" alt="Пеногенератор 1 л с бачком под мойку высокого давления" width="1200" height="1200" loading="lazy" decoding="async">
+          </div>
+          <div class="product__body">
+            <h3 class="product__title">Пеногенератор 1 л с бачком под мойку высокого давления</h3>
+            <p class="product__benefit">Бачок 1 л, подключение к мойке высокого давления.</p>
+            <div class="product__foot">
+              <p class="price"><span class="price__now">2 590 ₽</span></p>
+              <button class="btn btn--card add-to-cart" type="button" aria-label="Добавить в корзину: Пеногенератор 1 л">В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product" data-cat="paint">
+          <div class="product__media">
+            <img src="assets/img/prod-paint.jpg" alt="Краскопульт HVLP 1.4 мм с верхним бачком 600 мл" width="1200" height="1200" loading="lazy" decoding="async">
+            <span class="badge badge--soon">Под заказ</span>
+          </div>
+          <div class="product__body">
+            <h3 class="product__title">Краскопульт HVLP 1.4 мм, верхний бачок 600 мл</h3>
+            <p class="product__benefit">Верхний бачок 600 мл, дюза 1.4 мм — для покраски элементов.</p>
+            <div class="product__foot">
+              <p class="price"><span class="price__now">6 900 ₽</span></p>
+              <button class="btn btn--card add-to-cart" type="button" aria-label="Добавить в корзину: Краскопульт HVLP 1.4 мм">В корзину</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="catalog__empty" id="catalog-empty" hidden>В этом разделе в концепте пока нет карточек. <button class="link-btn" type="button" data-reset-filter>Показать все товары</button></p>
+      <p class="catalog__note">Цены — ориентиры концепта; позиции 1–2 взяты со скриншота сайта.</p>
+    </div>
+  </section>
+
+  <section class="section" id="picker" aria-labelledby="picker-title">
+    <div class="container">
+      <div class="section__head">
+        <div class="section__head-main">
+          <p class="eyebrow"><b>03</b> Подбор</p>
+          <h2 class="section__title" id="picker-title">Подбор за 3 шага</h2>
+        </div>
+      </div>
+
+      <ol class="steps">
+        <li class="step"><span class="step__num">01</span><h3 class="step__title">Что чистите или красите</h3></li>
+        <li class="step"><span class="step__num">02</span><h3 class="step__title">Компрессор и давление</h3></li>
+        <li class="step"><span class="step__num">03</span><h3 class="step__title">Бюджет</h3></li>
+      </ol>
+
+      <div class="scenarios">
+        <article class="scenario">
+          <h3 class="scenario__title">Салон и химчистка</h3>
+          <p class="scenario__text">Торнадор с набором адаптеров: сухая чистка кресел, ковров и труднодоступных мест салона.</p>
+        </article>
+        <article class="scenario">
+          <h3 class="scenario__title">Покраска элемента</h3>
+          <p class="scenario__text">Краскопульт HVLP с верхним бачком — под ваш компрессор и объём работ.</p>
+        </article>
+        <article class="scenario">
+          <h3 class="scenario__title">Мойка и пена</h3>
+          <p class="scenario__text">Пеногенератор с бачком под мойку высокого давления и расходники к нему.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="included" aria-labelledby="included-title">
+    <div class="container">
+      <div class="included">
+        <div class="included__head">
+          <p class="eyebrow"><b>04</b> Заказ</p>
+          <h2 class="section__title" id="included-title">Что входит в заказ</h2>
+        </div>
+        <ul class="included__list">
+          <li class="included__item">
+            <span class="included__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5l5 5L20 6.5"></path></svg></span>
+            <div><strong>Проверка при получении</strong><small>Вскрываете коробку и проверяете комплект вместе с курьером.</small></div>
+          </li>
+          <li class="included__item">
+            <span class="included__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5l5 5L20 6.5"></path></svg></span>
+            <div><strong>Комплект адаптеров</strong><small>Переходники под мойку и компрессор — в коробке.</small></div>
+          </li>
+          <li class="included__item">
+            <span class="included__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5l5 5L20 6.5"></path></svg></span>
+            <div><strong>Инструкция</strong><small>Памятка по сборке, подключению и давлению.</small></div>
+          </li>
+          <li class="included__item">
+            <span class="included__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5l5 5L20 6.5"></path></svg></span>
+            <div><strong>Чек</strong><small>Документы на покупку — в посылке и на e-mail.</small></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="compare-wrap">
+        <table class="compare">
+          <caption class="sr-only">Сравнение с обычным магазином</caption>
+          <thead>
+            <tr>
+              <th scope="col"><span class="sr-only">Параметр</span></th>
+              <th scope="col">Обычный магазин</th>
+              <th scope="col">У нас</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Наличие на складе</th>
+              <td data-label="Обычный магазин">Уточняют наличие по телефону</td>
+              <td data-label="У нас">Склад в Москве — отдаём в день заказа</td>
+            </tr>
+            <tr>
+              <th scope="row">Подбор по компрессору</th>
+              <td data-label="Обычный магазин">Продают то, что стоит на полке</td>
+              <td data-label="У нас">Подбираем под ваш компрессор и давление</td>
+            </tr>
+            <tr>
+              <th scope="row">Гарантия и сервис</th>
+              <td data-label="Обычный магазин">Только чек</td>
+              <td data-label="У нас">Гарантия 12 мес. и сервис <a class="fact__ref" href="#warranty-note">*</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Отправка в день заказа</th>
+              <td data-label="Обычный магазин">На следующий день</td>
+              <td data-label="У нас">Почта России, СДЭК или курьер</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services" id="delivery" aria-label="Доставка и сервис">
+    <div class="container">
+      <ul class="services__list">
+        <li class="service">
+          <span class="service__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 7h11v9H3z"></path><path d="M14 10h4l3 3v3h-7"></path><circle cx="7" cy="18" r="1.8"></circle><circle cx="17.5" cy="18" r="1.8"></circle></svg></span>
+          <div><strong>Доставка по России</strong><small>Почта России, СДЭК, курьер</small></div>
+        </li>
+        <li class="service">
+          <span class="service__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="6" width="18" height="12" rx="3"></rect><path d="M3 10h18"></path></svg></span>
+          <div><strong>Оплата при получении</strong><small>Проверка до оплаты</small></div>
+        </li>
+        <li class="service">
+          <span class="service__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l7 3v5.5c0 4-3 7.5-7 9.5-4-2-7-5.5-7-9.5V6l7-3Z"></path><path d="M9 12l2 2 4-4"></path></svg></span>
+          <div><strong>Гарантия и сервис</strong><small>12 мес. — по данным магазина*</small></div>
+        </li>
+        <li class="service">
+          <span class="service__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 14v-2a8 8 0 0 1 16 0v2"></path><rect x="3" y="13" width="4" height="6" rx="2"></rect><rect x="17" y="13" width="4" height="6" rx="2"></rect></svg></span>
+          <div><strong>Подбор по телефону</strong><small>8 800 000-00-00 · демо</small></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="container about">
+      <figure class="about__media">
+        <img src="assets/img/lifestyle.jpg" alt="Маляр в окрасочной камере с краскопультом в руке" width="1200" height="1200" loading="lazy" decoding="async">
+      </figure>
+      <div class="about__text">
+        <p class="eyebrow"><b>05</b> О нас</p>
+        <h2 class="section__title" id="about-title">О нас</h2>
+        <p class="about__lead">Работаем с детейлинг-студиями и малярными цехами: подбираем оборудование под ваш компрессор и задачу, отправляем по России.</p>
+        <ul class="about__facts">
+          <li><strong>Москва</strong><span>склад и самовывоз</span></li>
+          <li><strong>3</strong><span>способа доставки</span></li>
+          <li><strong>EZO Japan</strong><span>подшипники торнадоров</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reviews" aria-labelledby="reviews-title">
+    <div class="container">
+      <div class="section__head section__head--split">
+        <div class="section__head-main">
+          <p class="eyebrow"><b>06</b> Доверие</p>
+          <h2 class="section__title" id="reviews-title">Отзывы</h2>
+        </div>
+        <p class="section__note">Тексты ниже — демонстрационные: показывают структуру блока, реальные отзывы подставит магазин.</p>
+      </div>
+
+      <div class="reviews__grid">
+        <article class="review">
+          <span class="review__badge">демо-текст</span>
+          <blockquote class="review__quote">«Позвонил, описал компрессор — подобрали краскопульт под него, а не то, что было на витрине.»</blockquote>
+          <p class="review__meta">о подборе</p>
+        </article>
+        <article class="review">
+          <span class="review__badge">демо-текст</span>
+          <blockquote class="review__quote">«Пришло в день заказа: каждая коробка проклеена, внутри ничего не болталось.»</blockquote>
+          <p class="review__meta">об упаковке и доставке</p>
+        </article>
+        <article class="review">
+          <span class="review__badge">демо-текст</span>
+          <blockquote class="review__quote">«Брали пеногенератор под мойку высокого давления — уточнили давление и адаптер до отправки.»</blockquote>
+          <p class="review__meta">о подборе</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contacts" aria-labelledby="footer-title">
+  <div class="container">
+    <h2 class="sr-only" id="footer-title">Контакты</h2>
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a class="logo logo--footer" href="#main" aria-label="TORNADO — в начало страницы">
+          <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+            <rect width="40" height="40" rx="13" fill="rgba(255,255,255,.1)"></rect>
+            <path d="M20 9.5c4.2 5.2 6.6 8.7 6.6 11.8a6.6 6.6 0 1 1-13.2 0c0-3.1 2.4-6.6 6.6-11.8Z" fill="var(--accent)"></path>
+          </svg>
+          <span class="logo__text"><strong>TORNADO</strong></span>
+        </a>
+        <p class="footer__brand-text">Пневмооборудование для авто: торнадоры, краскопульты, пеногенераторы, автохимия.</p>
+        <p class="footer__addr">Москва, самовывоз по договорённости</p>
+      </div>
+
+      <div class="footer__col">
+        <h3>Каталог</h3>
+        <ul>
+          <li><a href="#categories">Категории</a></li>
+          <li><a href="#catalog">Популярное</a></li>
+          <li><a href="#picker">Подбор</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3>Покупателю</h3>
+        <ul>
+          <li><a href="#delivery">Доставка и сервис</a></li>
+          <li><a href="#included">Что входит в заказ</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contacts">
+        <a class="footer__phone" href="tel:+78000000000">8 800 000-00-00</a>
+        <p class="footer__hint">демо</p>
+        <ul class="footer__links">
+          <li><a href="https://t.me/tornado_demo" rel="noopener">Telegram · @tornado_demo</a></li>
+          <li><a href="mailto:demo@tornado-demo.ru">demo@tornado-demo.ru</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__note" id="warranty-note">*условия гарантии — по данным магазина</p>
+      <p class="footer__copy">© 2026 TORNADO · концепт главной страницы</p>
+      <p class="footer__plate">Концепт-демо для FL.ru №5528349 · фото — визуальные плейсхолдеры</p>
+    </div>
+  </div>
+</footer>
+
+<div class="style-switch" id="style-switch">
+  <div class="style-panel" id="style-panel" hidden>
+    <p class="style-panel__title">Палитра</p>
+    <button class="style-option" type="button" data-theme-option="b" aria-pressed="true">
+      <span class="style-option__dot" data-dot="b" aria-hidden="true"></span>
+      <span><strong>Сталь</strong><small>синий · светлая</small></span>
+    </button>
+    <button class="style-option" type="button" data-theme-option="c" aria-pressed="false">
+      <span class="style-option__dot" data-dot="c" aria-hidden="true"></span>
+      <span><strong>Графит</strong><small>янтарный · тёмная</small></span>
+    </button>
+    <button class="style-option" type="button" data-theme-option="a" aria-pressed="false">
+      <span class="style-option__dot" data-dot="a" aria-hidden="true"></span>
+      <span><strong>Тёплый цех</strong><small>терракота · тёплая</small></span>
+    </button>
+  </div>
+  <button class="style-toggle" id="style-toggle" type="button" aria-expanded="false" aria-controls="style-panel">
+    <span class="style-toggle__dot" aria-hidden="true"></span>
+    <span>Стиль: <strong id="style-name">Сталь</strong></span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"></path></svg>
+  </button>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 12.5l5 5L20 6.5"></path></svg>
+  <span id="toast-text">Добавлено в корзину</span>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
